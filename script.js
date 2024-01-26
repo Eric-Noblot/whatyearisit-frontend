@@ -1,5 +1,5 @@
 
-fetch("whatyearisit-backend-roan.vercel.app")
+fetch("https://whatyearisit-backend-roan.vercel.app/year")
 .then(response => response.json())
 .then((data) => {
     
